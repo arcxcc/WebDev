@@ -8,6 +8,24 @@
         padding: 20px;
     }
 
+    ul {
+        list-style: none;
+    }
+      
+    li {
+        display: inline-block;  /* makes lists horizontal */
+        margin-right: 10px; /* add spacing between items */
+    }
+
+    li a{
+        color: white    /* changed color of links to white */
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+
     header {
         background-color: #395045;
     }
